@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+.cont{
+   
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 70px;
+}
+.heading{
+    text-align: center;
+}
+
+.eh1{
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.dae{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25vw;
+}
+.title{
+    height: 50px;
+    border:solid black 1.5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.inputDate{
+    height: 50px;
+    border:solid black 1.5px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.para{
+  
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.pa{
+    font-size: 20px;
+    font-weight: 500;
+}
+.bu{
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #AAFF00;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+   
+}

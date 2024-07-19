@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.main2{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.img{
+    height: 90%;
+    width: 100%;
+}
+
+
+.main{
+    height: 100vh;
+    width: 50vw;
+    
+    float: left;
+    margin: none;
+}
+.heading{
+    position: relative;
+    top: 11rem;
+    left: 8rem;
+}
+
+.eh1{
+    font-size: 120px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.eh2{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.buttons{
+position: relative;
+top: 15rem;
+left: 8rem;
+display: flex;
+flex-direction: row;
+column-gap: 30px;
+}
+.b{
+    
+    font-size: 23px;
+padding: 20px 40px;
+border: none;
+border-radius: 7px;
+font-weight: 700;
+cursor: pointer;
+    
+}
+.b1{
+   background-color: #9AEBE4;
+
+}
+.b2{
+    border: solid black 1px;
+}
